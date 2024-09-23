@@ -12,14 +12,26 @@
             $operador1 = 13;
             $operador2 = 4;
 
-            $resultado = 13 - 4;
+            $resultado = $operador1 - $operador2;
 
             echo "$operador1 - $operador2 = $resultado <br>";
 
-            $resultado = 13 + 4;
+            $resultado = $operador1 + $operador2;
 
-            echo "$resultado";
-            
+            echo "$operador1 + $operador2 = $resultado <br>";
+
+            $resultado = $operador1 * $operador2;
+
+            echo "$operador1 * $operador2 = $resultado <br>";
+
+            $resultado = $operador1 / $operador2;
+
+            echo "$operador1 / $operador2 = $resultado <br>";
+
+            $resultado = $operador1 % $operador2;
+
+            echo "$operador1 % $operador2 = $resultado <br>";
+
         ?>
 
     </body>
